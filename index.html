@@ -520,15 +520,15 @@
   <h2 class="section-title">Contact Me</h2>
   <p class="contact-subtitle">Got a project waiting to be realized? Let's collaborate and make it happen!</p>
 
-  <form class="contact-form" action="mailto:lokiee2005@gmail.com" method="post" enctype="text/plain">
-    <div class="contact-row">
-      <input type="text" name="name" placeholder="Your Name *" />
-      <input type="text" name="contact" placeholder="Email / Phone *" />
-    </div>
+<form action="https://formspree.io/f/xpqkwrzp" method="POST">
+  <div class="contact-row">
+    <input type="text" name="name" placeholder="Your Name *" required />
+    <input type="text" name="contact" placeholder="Email / Phone *" required />
+  </div>
 
-    <textarea name="message" placeholder="Message *"></textarea>
+  <textarea name="message" placeholder="Message *" required></textarea>
 
-    <button type="submit" class="send-btn">
+  <button type="submit" class="send-btn">
       SEND
       <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
         <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
